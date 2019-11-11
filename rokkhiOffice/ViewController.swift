@@ -15,14 +15,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        profilePhoto.layer.masksToBounds = true
-//        profilePhoto.layer.cornerRadius = profilePhoto.bounds.width / 2
-        
+
         profilePicture.layer.masksToBounds = true
-        profilePicture.layer.cornerRadius = profilePicture.bounds.width / 2
+        profilePicture.layer.cornerRadius = profilePicture.frame.width / 2
         
     }
 
 
 }
+
+
+
+
+
+
+
+
+
 
