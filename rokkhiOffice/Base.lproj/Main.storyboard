@@ -21,27 +21,29 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navbarRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="taL-Od-Bcg">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cecilia Pozo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqz-pk-62Q">
-                                        <rect key="frame" x="126" y="35" width="121.5" height="30.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="22"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="8hG-pf-Aij">
-                                        <rect key="frame" x="15" y="30" width="100" height="100"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0P-AA-bNL">
+                                        <rect key="frame" x="20" y="33.5" width="100" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="ixC-kc-SJH">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            </imageView>
+                                        </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="MqP-j7-7jG"/>
-                                            <constraint firstAttribute="width" constant="100" id="por-Ls-wtZ"/>
+                                            <constraint firstItem="ixC-kc-SJH" firstAttribute="leading" secondItem="L0P-AA-bNL" secondAttribute="leading" id="AKq-CN-NRY"/>
+                                            <constraint firstItem="ixC-kc-SJH" firstAttribute="top" secondItem="L0P-AA-bNL" secondAttribute="top" id="IiU-nl-Xrx"/>
+                                            <constraint firstAttribute="width" secondItem="L0P-AA-bNL" secondAttribute="height" multiplier="1:1" id="vQn-pn-zem"/>
+                                            <constraint firstAttribute="bottom" secondItem="ixC-kc-SJH" secondAttribute="bottom" id="x0q-yz-MCg"/>
+                                            <constraint firstAttribute="trailing" secondItem="ixC-kc-SJH" secondAttribute="trailing" id="zNs-lJ-Vuw"/>
                                         </constraints>
-                                    </imageView>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="taL-Od-Bcg" secondAttribute="trailing" id="390-5K-bnh"/>
-                                    <constraint firstItem="8hG-pf-Aij" firstAttribute="top" secondItem="pFf-c3-pQT" secondAttribute="top" constant="30" id="Kpo-70-pc5"/>
-                                    <constraint firstItem="8hG-pf-Aij" firstAttribute="leading" secondItem="pFf-c3-pQT" secondAttribute="leading" constant="15" id="Q72-6l-mgK"/>
+                                    <constraint firstItem="L0P-AA-bNL" firstAttribute="height" secondItem="taL-Od-Bcg" secondAttribute="height" multiplier="0.6" id="7KU-pM-j7f"/>
+                                    <constraint firstItem="L0P-AA-bNL" firstAttribute="leading" secondItem="pFf-c3-pQT" secondAttribute="leading" constant="20" id="85c-Ll-wPR"/>
                                     <constraint firstAttribute="bottom" secondItem="taL-Od-Bcg" secondAttribute="bottom" id="Sjr-hv-o2Q"/>
+                                    <constraint firstItem="L0P-AA-bNL" firstAttribute="centerY" secondItem="pFf-c3-pQT" secondAttribute="centerY" id="WaL-Ef-VVv"/>
                                     <constraint firstItem="taL-Od-Bcg" firstAttribute="top" secondItem="pFf-c3-pQT" secondAttribute="top" id="m1K-x5-7yP"/>
                                     <constraint firstItem="taL-Od-Bcg" firstAttribute="leading" secondItem="pFf-c3-pQT" secondAttribute="leading" id="tOH-Kf-64W"/>
                                 </constraints>
@@ -116,7 +118,7 @@
                         <viewLayoutGuide key="safeArea" id="6yC-Lh-9K9"/>
                     </view>
                     <connections>
-                        <outlet property="profilePhoto" destination="8hG-pf-Aij" id="5Ae-NX-XXe"/>
+                        <outlet property="profilePicture" destination="ixC-kc-SJH" id="L5b-rU-QzF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CE-6O-eeU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
