@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCEE248235ADBF000754E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE247235ADBF000754E57 /* AppDelegate.swift */; };
+		2BCEE24A235ADBF000754E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE249235ADBF000754E57 /* SceneDelegate.swift */; };
+		2BCEE24C235ADBF000754E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE24B235ADBF000754E57 /* ViewController.swift */; };
+		2BCEE24F235ADBF000754E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE24D235ADBF000754E57 /* Main.storyboard */; };
+		2BCEE251235ADBF100754E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE250235ADBF100754E57 /* Assets.xcassets */; };
+		2BCEE254235ADBF100754E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */; };
+		2BCEE25F235ADBF200754E57 /* rokkhiOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */; };
+		2BCEE26A235ADBF200754E57 /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */; };
+		2BCEE278235AE03100754E57 /* imageWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE277235AE03100754E57 /* imageWithShadow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BCEE25B235ADBF200754E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCEE23C235ADBF000754E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCEE243235ADBF000754E57;
+			remoteInfo = rokkhiOffice;
+		};
+		2BCEE266235ADBF200754E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCEE23C235ADBF000754E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCEE243235ADBF000754E57;
+			remoteInfo = rokkhiOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BCEE244235ADBF000754E57 /* rokkhiOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokkhiOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCEE247235ADBF000754E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BCEE249235ADBF000754E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BCEE24B235ADBF000754E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BCEE24E235ADBF000754E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BCEE250235ADBF100754E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BCEE253235ADBF100754E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BCEE255235ADBF100754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeTests.swift; sourceTree = "<group>"; };
+		2BCEE260235ADBF200754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeUITests.swift; sourceTree = "<group>"; };
+		2BCEE26B235ADBF200754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCEE277235AE03100754E57 /* imageWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageWithShadow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCEE241235ADBF000754E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE257235ADBF200754E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE262235ADBF200754E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCEE23B235ADBF000754E57 = {
+			isa = PBXGroup;
+			children = (
+				2BCEE246235ADBF000754E57 /* rokkhiOffice */,
+				2BCEE25D235ADBF200754E57 /* rokkhiOfficeTests */,
+				2BCEE268235ADBF200754E57 /* rokkhiOfficeUITests */,
+				2BCEE245235ADBF000754E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCEE245235ADBF000754E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEE244235ADBF000754E57 /* rokkhiOffice.app */,
+				2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */,
+				2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCEE246235ADBF000754E57 /* rokkhiOffice */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEE247235ADBF000754E57 /* AppDelegate.swift */,
+				2BCEE249235ADBF000754E57 /* SceneDelegate.swift */,
+				2BCEE24B235ADBF000754E57 /* ViewController.swift */,
+				2BCEE24D235ADBF000754E57 /* Main.storyboard */,
+				2BCEE250235ADBF100754E57 /* Assets.xcassets */,
+				2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */,
+				2BCEE255235ADBF100754E57 /* Info.plist */,
+				2BCEE277235AE03100754E57 /* imageWithShadow.swift */,
+			);
+			path = rokkhiOffice;
+			sourceTree = "<group>";
+		};
+		2BCEE25D235ADBF200754E57 /* rokkhiOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */,
+				2BCEE260235ADBF200754E57 /* Info.plist */,
+			);
+			path = rokkhiOfficeTests;
+			sourceTree = "<group>";
+		};
+		2BCEE268235ADBF200754E57 /* rokkhiOfficeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */,
+				2BCEE26B235ADBF200754E57 /* Info.plist */,
+			);
+			path = rokkhiOfficeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCEE243235ADBF000754E57 /* rokkhiOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCEE26E235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOffice" */;
+			buildPhases = (
+				2BCEE240235ADBF000754E57 /* Sources */,
+				2BCEE241235ADBF000754E57 /* Frameworks */,
+				2BCEE242235ADBF000754E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rokkhiOffice;
+			productName = rokkhiOffice;
+			productReference = 2BCEE244235ADBF000754E57 /* rokkhiOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BCEE259235ADBF200754E57 /* rokkhiOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCEE271235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */;
+			buildPhases = (
+				2BCEE256235ADBF200754E57 /* Sources */,
+				2BCEE257235ADBF200754E57 /* Frameworks */,
+				2BCEE258235ADBF200754E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCEE25C235ADBF200754E57 /* PBXTargetDependency */,
+			);
+			name = rokkhiOfficeTests;
+			productName = rokkhiOfficeTests;
+			productReference = 2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BCEE264235ADBF200754E57 /* rokkhiOfficeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCEE274235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */;
+			buildPhases = (
+				2BCEE261235ADBF200754E57 /* Sources */,
+				2BCEE262235ADBF200754E57 /* Frameworks */,
+				2BCEE263235ADBF200754E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCEE267235ADBF200754E57 /* PBXTargetDependency */,
+			);
+			name = rokkhiOfficeUITests;
+			productName = rokkhiOfficeUITests;
+			productReference = 2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCEE23C235ADBF000754E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Shafiqul  Islam";
+				TargetAttributes = {
+					2BCEE243235ADBF000754E57 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2BCEE259235ADBF200754E57 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2BCEE243235ADBF000754E57;
+					};
+					2BCEE264235ADBF200754E57 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2BCEE243235ADBF000754E57;
+					};
+				};
+			};
+			buildConfigurationList = 2BCEE23F235ADBF000754E57 /* Build configuration list for PBXProject "rokkhiOffice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCEE23B235ADBF000754E57;
+			productRefGroup = 2BCEE245235ADBF000754E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCEE243235ADBF000754E57 /* rokkhiOffice */,
+				2BCEE259235ADBF200754E57 /* rokkhiOfficeTests */,
+				2BCEE264235ADBF200754E57 /* rokkhiOfficeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCEE242235ADBF000754E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEE254235ADBF100754E57 /* LaunchScreen.storyboard in Resources */,
+				2BCEE251235ADBF100754E57 /* Assets.xcassets in Resources */,
+				2BCEE24F235ADBF000754E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE258235ADBF200754E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE263235ADBF200754E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCEE240235ADBF000754E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEE24C235ADBF000754E57 /* ViewController.swift in Sources */,
+				2BCEE278235AE03100754E57 /* imageWithShadow.swift in Sources */,
+				2BCEE248235ADBF000754E57 /* AppDelegate.swift in Sources */,
+				2BCEE24A235ADBF000754E57 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE256235ADBF200754E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEE25F235ADBF200754E57 /* rokkhiOfficeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCEE261235ADBF200754E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEE26A235ADBF200754E57 /* rokkhiOfficeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCEE25C235ADBF200754E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCEE243235ADBF000754E57 /* rokkhiOffice */;
+			targetProxy = 2BCEE25B235ADBF200754E57 /* PBXContainerItemProxy */;
+		};
+		2BCEE267235ADBF200754E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCEE243235ADBF000754E57 /* rokkhiOffice */;
+			targetProxy = 2BCEE266235ADBF200754E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BCEE24D235ADBF000754E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCEE24E235ADBF000754E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCEE253235ADBF100754E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCEE26C235ADBF200754E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BCEE26D235ADBF200754E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCEE26F235ADBF200754E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BCEE270235ADBF200754E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BCEE272235ADBF200754E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOfficeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokkhiOffice.app/rokkhiOffice";
+			};
+			name = Debug;
+		};
+		2BCEE273235ADBF200754E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOfficeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokkhiOffice.app/rokkhiOffice";
+			};
+			name = Release;
+		};
+		2BCEE275235ADBF200754E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rokkhiOffice;
+			};
+			name = Debug;
+		};
+		2BCEE276235ADBF200754E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rokkhiOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = newSunIT.rokkhiOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rokkhiOffice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCEE23F235ADBF000754E57 /* Build configuration list for PBXProject "rokkhiOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEE26C235ADBF200754E57 /* Debug */,
+				2BCEE26D235ADBF200754E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCEE26E235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEE26F235ADBF200754E57 /* Debug */,
+				2BCEE270235ADBF200754E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCEE271235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEE272235ADBF200754E57 /* Debug */,
+				2BCEE273235ADBF200754E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCEE274235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCEE275235ADBF200754E57 /* Debug */,
+				2BCEE276235ADBF200754E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCEE23C235ADBF000754E57 /* Project object */;
+}
