@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BCEE248235ADBF000754E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE247235ADBF000754E57 /* AppDelegate.swift */; };
-		2BCEE24A235ADBF000754E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE249235ADBF000754E57 /* SceneDelegate.swift */; };
-		2BCEE24C235ADBF000754E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE24B235ADBF000754E57 /* ViewController.swift */; };
-		2BCEE24F235ADBF000754E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE24D235ADBF000754E57 /* Main.storyboard */; };
-		2BCEE251235ADBF100754E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE250235ADBF100754E57 /* Assets.xcassets */; };
-		2BCEE254235ADBF100754E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */; };
-		2BCEE25F235ADBF200754E57 /* rokkhiOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */; };
-		2BCEE26A235ADBF200754E57 /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */; };
-		2BCEE278235AE03100754E57 /* imageWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCEE277235AE03100754E57 /* imageWithShadow.swift */; };
+		2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669D9D23770CA40053017F /* AppDelegate.swift */; };
+		2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669D9F23770CA40053017F /* SceneDelegate.swift */; };
+		2B669DA223770CA40053017F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DA123770CA40053017F /* ViewController.swift */; };
+		2B669DA523770CA40053017F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA323770CA40053017F /* Main.storyboard */; };
+		2B669DA723770CA50053017F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA623770CA50053017F /* Assets.xcassets */; };
+		2B669DAA23770CA50053017F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA823770CA50053017F /* LaunchScreen.storyboard */; };
+		2B669DB523770CA50053017F /* rokkhiOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DB423770CA50053017F /* rokkhiOfficeTests.swift */; };
+		2B669DC023770CA50053017F /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BCEE25B235ADBF200754E57 /* PBXContainerItemProxy */ = {
+		2B669DB123770CA50053017F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BCEE23C235ADBF000754E57 /* Project object */;
+			containerPortal = 2B669D9223770CA30053017F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BCEE243235ADBF000754E57;
+			remoteGlobalIDString = 2B669D9923770CA40053017F;
 			remoteInfo = rokkhiOffice;
 		};
-		2BCEE266235ADBF200754E57 /* PBXContainerItemProxy */ = {
+		2B669DBC23770CA50053017F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2BCEE23C235ADBF000754E57 /* Project object */;
+			containerPortal = 2B669D9223770CA30053017F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BCEE243235ADBF000754E57;
+			remoteGlobalIDString = 2B669D9923770CA40053017F;
 			remoteInfo = rokkhiOffice;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BCEE244235ADBF000754E57 /* rokkhiOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokkhiOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BCEE247235ADBF000754E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BCEE249235ADBF000754E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BCEE24B235ADBF000754E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2BCEE24E235ADBF000754E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BCEE250235ADBF100754E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BCEE253235ADBF100754E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2BCEE255235ADBF100754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeTests.swift; sourceTree = "<group>"; };
-		2BCEE260235ADBF200754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeUITests.swift; sourceTree = "<group>"; };
-		2BCEE26B235ADBF200754E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BCEE277235AE03100754E57 /* imageWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageWithShadow.swift; sourceTree = "<group>"; };
+		2B669D9A23770CA40053017F /* rokkhiOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokkhiOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B669D9D23770CA40053017F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B669D9F23770CA40053017F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B669DA123770CA40053017F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B669DA423770CA40053017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B669DA623770CA50053017F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B669DA923770CA50053017F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B669DAB23770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B669DB023770CA50053017F /* rokkhiOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B669DB423770CA50053017F /* rokkhiOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeTests.swift; sourceTree = "<group>"; };
+		2B669DB623770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B669DBB23770CA50053017F /* rokkhiOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeUITests.swift; sourceTree = "<group>"; };
+		2B669DC123770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BCEE241235ADBF000754E57 /* Frameworks */ = {
+		2B669D9723770CA40053017F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE257235ADBF200754E57 /* Frameworks */ = {
+		2B669DAD23770CA50053017F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE262235ADBF200754E57 /* Frameworks */ = {
+		2B669DB823770CA50053017F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BCEE23B235ADBF000754E57 = {
+		2B669D9123770CA30053017F = {
 			isa = PBXGroup;
 			children = (
-				2BCEE246235ADBF000754E57 /* rokkhiOffice */,
-				2BCEE25D235ADBF200754E57 /* rokkhiOfficeTests */,
-				2BCEE268235ADBF200754E57 /* rokkhiOfficeUITests */,
-				2BCEE245235ADBF000754E57 /* Products */,
+				2B669D9C23770CA40053017F /* rokkhiOffice */,
+				2B669DB323770CA50053017F /* rokkhiOfficeTests */,
+				2B669DBE23770CA50053017F /* rokkhiOfficeUITests */,
+				2B669D9B23770CA40053017F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2BCEE245235ADBF000754E57 /* Products */ = {
+		2B669D9B23770CA40053017F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BCEE244235ADBF000754E57 /* rokkhiOffice.app */,
-				2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */,
-				2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */,
+				2B669D9A23770CA40053017F /* rokkhiOffice.app */,
+				2B669DB023770CA50053017F /* rokkhiOfficeTests.xctest */,
+				2B669DBB23770CA50053017F /* rokkhiOfficeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BCEE246235ADBF000754E57 /* rokkhiOffice */ = {
+		2B669D9C23770CA40053017F /* rokkhiOffice */ = {
 			isa = PBXGroup;
 			children = (
-				2BCEE247235ADBF000754E57 /* AppDelegate.swift */,
-				2BCEE249235ADBF000754E57 /* SceneDelegate.swift */,
-				2BCEE24B235ADBF000754E57 /* ViewController.swift */,
-				2BCEE24D235ADBF000754E57 /* Main.storyboard */,
-				2BCEE250235ADBF100754E57 /* Assets.xcassets */,
-				2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */,
-				2BCEE255235ADBF100754E57 /* Info.plist */,
-				2BCEE277235AE03100754E57 /* imageWithShadow.swift */,
+				2B669D9D23770CA40053017F /* AppDelegate.swift */,
+				2B669D9F23770CA40053017F /* SceneDelegate.swift */,
+				2B669DA123770CA40053017F /* ViewController.swift */,
+				2B669DA323770CA40053017F /* Main.storyboard */,
+				2B669DA623770CA50053017F /* Assets.xcassets */,
+				2B669DA823770CA50053017F /* LaunchScreen.storyboard */,
+				2B669DAB23770CA50053017F /* Info.plist */,
 			);
 			path = rokkhiOffice;
 			sourceTree = "<group>";
 		};
-		2BCEE25D235ADBF200754E57 /* rokkhiOfficeTests */ = {
+		2B669DB323770CA50053017F /* rokkhiOfficeTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BCEE25E235ADBF200754E57 /* rokkhiOfficeTests.swift */,
-				2BCEE260235ADBF200754E57 /* Info.plist */,
+				2B669DB423770CA50053017F /* rokkhiOfficeTests.swift */,
+				2B669DB623770CA50053017F /* Info.plist */,
 			);
 			path = rokkhiOfficeTests;
 			sourceTree = "<group>";
 		};
-		2BCEE268235ADBF200754E57 /* rokkhiOfficeUITests */ = {
+		2B669DBE23770CA50053017F /* rokkhiOfficeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2BCEE269235ADBF200754E57 /* rokkhiOfficeUITests.swift */,
-				2BCEE26B235ADBF200754E57 /* Info.plist */,
+				2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */,
+				2B669DC123770CA50053017F /* Info.plist */,
 			);
 			path = rokkhiOfficeUITests;
 			sourceTree = "<group>";
@@ -134,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BCEE243235ADBF000754E57 /* rokkhiOffice */ = {
+		2B669D9923770CA40053017F /* rokkhiOffice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BCEE26E235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOffice" */;
+			buildConfigurationList = 2B669DC423770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOffice" */;
 			buildPhases = (
-				2BCEE240235ADBF000754E57 /* Sources */,
-				2BCEE241235ADBF000754E57 /* Frameworks */,
-				2BCEE242235ADBF000754E57 /* Resources */,
+				2B669D9623770CA40053017F /* Sources */,
+				2B669D9723770CA40053017F /* Frameworks */,
+				2B669D9823770CA40053017F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +145,69 @@
 			);
 			name = rokkhiOffice;
 			productName = rokkhiOffice;
-			productReference = 2BCEE244235ADBF000754E57 /* rokkhiOffice.app */;
+			productReference = 2B669D9A23770CA40053017F /* rokkhiOffice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2BCEE259235ADBF200754E57 /* rokkhiOfficeTests */ = {
+		2B669DAF23770CA50053017F /* rokkhiOfficeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BCEE271235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */;
+			buildConfigurationList = 2B669DC723770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */;
 			buildPhases = (
-				2BCEE256235ADBF200754E57 /* Sources */,
-				2BCEE257235ADBF200754E57 /* Frameworks */,
-				2BCEE258235ADBF200754E57 /* Resources */,
+				2B669DAC23770CA50053017F /* Sources */,
+				2B669DAD23770CA50053017F /* Frameworks */,
+				2B669DAE23770CA50053017F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BCEE25C235ADBF200754E57 /* PBXTargetDependency */,
+				2B669DB223770CA50053017F /* PBXTargetDependency */,
 			);
 			name = rokkhiOfficeTests;
 			productName = rokkhiOfficeTests;
-			productReference = 2BCEE25A235ADBF200754E57 /* rokkhiOfficeTests.xctest */;
+			productReference = 2B669DB023770CA50053017F /* rokkhiOfficeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2BCEE264235ADBF200754E57 /* rokkhiOfficeUITests */ = {
+		2B669DBA23770CA50053017F /* rokkhiOfficeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BCEE274235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */;
+			buildConfigurationList = 2B669DCA23770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */;
 			buildPhases = (
-				2BCEE261235ADBF200754E57 /* Sources */,
-				2BCEE262235ADBF200754E57 /* Frameworks */,
-				2BCEE263235ADBF200754E57 /* Resources */,
+				2B669DB723770CA50053017F /* Sources */,
+				2B669DB823770CA50053017F /* Frameworks */,
+				2B669DB923770CA50053017F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2BCEE267235ADBF200754E57 /* PBXTargetDependency */,
+				2B669DBD23770CA50053017F /* PBXTargetDependency */,
 			);
 			name = rokkhiOfficeUITests;
 			productName = rokkhiOfficeUITests;
-			productReference = 2BCEE265235ADBF200754E57 /* rokkhiOfficeUITests.xctest */;
+			productReference = 2B669DBB23770CA50053017F /* rokkhiOfficeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BCEE23C235ADBF000754E57 /* Project object */ = {
+		2B669D9223770CA30053017F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Shafiqul  Islam";
 				TargetAttributes = {
-					2BCEE243235ADBF000754E57 = {
-						CreatedOnToolsVersion = 11.1;
+					2B669D9923770CA40053017F = {
+						CreatedOnToolsVersion = 11.2;
 					};
-					2BCEE259235ADBF200754E57 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 2BCEE243235ADBF000754E57;
+					2B669DAF23770CA50053017F = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 2B669D9923770CA40053017F;
 					};
-					2BCEE264235ADBF200754E57 = {
-						CreatedOnToolsVersion = 11.1;
-						TestTargetID = 2BCEE243235ADBF000754E57;
+					2B669DBA23770CA50053017F = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 2B669D9923770CA40053017F;
 					};
 				};
 			};
-			buildConfigurationList = 2BCEE23F235ADBF000754E57 /* Build configuration list for PBXProject "rokkhiOffice" */;
+			buildConfigurationList = 2B669D9523770CA30053017F /* Build configuration list for PBXProject "rokkhiOffice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BCEE23B235ADBF000754E57;
-			productRefGroup = 2BCEE245235ADBF000754E57 /* Products */;
+			mainGroup = 2B669D9123770CA30053017F;
+			productRefGroup = 2B669D9B23770CA40053017F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BCEE243235ADBF000754E57 /* rokkhiOffice */,
-				2BCEE259235ADBF200754E57 /* rokkhiOfficeTests */,
-				2BCEE264235ADBF200754E57 /* rokkhiOfficeUITests */,
+				2B669D9923770CA40053017F /* rokkhiOffice */,
+				2B669DAF23770CA50053017F /* rokkhiOfficeTests */,
+				2B669DBA23770CA50053017F /* rokkhiOfficeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BCEE242235ADBF000754E57 /* Resources */ = {
+		2B669D9823770CA40053017F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCEE254235ADBF100754E57 /* LaunchScreen.storyboard in Resources */,
-				2BCEE251235ADBF100754E57 /* Assets.xcassets in Resources */,
-				2BCEE24F235ADBF000754E57 /* Main.storyboard in Resources */,
+				2B669DAA23770CA50053017F /* LaunchScreen.storyboard in Resources */,
+				2B669DA723770CA50053017F /* Assets.xcassets in Resources */,
+				2B669DA523770CA40053017F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE258235ADBF200754E57 /* Resources */ = {
+		2B669DAE23770CA50053017F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE263235ADBF200754E57 /* Resources */ = {
+		2B669DB923770CA50053017F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BCEE240235ADBF000754E57 /* Sources */ = {
+		2B669D9623770CA40053017F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCEE24C235ADBF000754E57 /* ViewController.swift in Sources */,
-				2BCEE278235AE03100754E57 /* imageWithShadow.swift in Sources */,
-				2BCEE248235ADBF000754E57 /* AppDelegate.swift in Sources */,
-				2BCEE24A235ADBF000754E57 /* SceneDelegate.swift in Sources */,
+				2B669DA223770CA40053017F /* ViewController.swift in Sources */,
+				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
+				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE256235ADBF200754E57 /* Sources */ = {
+		2B669DAC23770CA50053017F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCEE25F235ADBF200754E57 /* rokkhiOfficeTests.swift in Sources */,
+				2B669DB523770CA50053017F /* rokkhiOfficeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BCEE261235ADBF200754E57 /* Sources */ = {
+		2B669DB723770CA50053017F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCEE26A235ADBF200754E57 /* rokkhiOfficeUITests.swift in Sources */,
+				2B669DC023770CA50053017F /* rokkhiOfficeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BCEE25C235ADBF200754E57 /* PBXTargetDependency */ = {
+		2B669DB223770CA50053017F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BCEE243235ADBF000754E57 /* rokkhiOffice */;
-			targetProxy = 2BCEE25B235ADBF200754E57 /* PBXContainerItemProxy */;
+			target = 2B669D9923770CA40053017F /* rokkhiOffice */;
+			targetProxy = 2B669DB123770CA50053017F /* PBXContainerItemProxy */;
 		};
-		2BCEE267235ADBF200754E57 /* PBXTargetDependency */ = {
+		2B669DBD23770CA50053017F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BCEE243235ADBF000754E57 /* rokkhiOffice */;
-			targetProxy = 2BCEE266235ADBF200754E57 /* PBXContainerItemProxy */;
+			target = 2B669D9923770CA40053017F /* rokkhiOffice */;
+			targetProxy = 2B669DBC23770CA50053017F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2BCEE24D235ADBF000754E57 /* Main.storyboard */ = {
+		2B669DA323770CA40053017F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BCEE24E235ADBF000754E57 /* Base */,
+				2B669DA423770CA40053017F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2BCEE252235ADBF100754E57 /* LaunchScreen.storyboard */ = {
+		2B669DA823770CA50053017F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BCEE253235ADBF100754E57 /* Base */,
+				2B669DA923770CA50053017F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2BCEE26C235ADBF200754E57 /* Debug */ = {
+		2B669DC223770CA50053017F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		2BCEE26D235ADBF200754E57 /* Release */ = {
+		2B669DC323770CA50053017F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,7 +430,7 @@
 			};
 			name = Release;
 		};
-		2BCEE26F235ADBF200754E57 /* Debug */ = {
+		2B669DC523770CA50053017F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -451,7 +447,7 @@
 			};
 			name = Debug;
 		};
-		2BCEE270235ADBF200754E57 /* Release */ = {
+		2B669DC623770CA50053017F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,14 +464,14 @@
 			};
 			name = Release;
 		};
-		2BCEE272235ADBF200754E57 /* Debug */ = {
+		2B669DC823770CA50053017F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = rokkhiOfficeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,14 +485,14 @@
 			};
 			name = Debug;
 		};
-		2BCEE273235ADBF200754E57 /* Release */ = {
+		2B669DC923770CA50053017F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = rokkhiOfficeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +506,7 @@
 			};
 			name = Release;
 		};
-		2BCEE275235ADBF200754E57 /* Debug */ = {
+		2B669DCB23770CA50053017F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		2BCEE276235ADBF200754E57 /* Release */ = {
+		2B669DCC23770CA50053017F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +547,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BCEE23F235ADBF000754E57 /* Build configuration list for PBXProject "rokkhiOffice" */ = {
+		2B669D9523770CA30053017F /* Build configuration list for PBXProject "rokkhiOffice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BCEE26C235ADBF200754E57 /* Debug */,
-				2BCEE26D235ADBF200754E57 /* Release */,
+				2B669DC223770CA50053017F /* Debug */,
+				2B669DC323770CA50053017F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BCEE26E235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOffice" */ = {
+		2B669DC423770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOffice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BCEE26F235ADBF200754E57 /* Debug */,
-				2BCEE270235ADBF200754E57 /* Release */,
+				2B669DC523770CA50053017F /* Debug */,
+				2B669DC623770CA50053017F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BCEE271235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */ = {
+		2B669DC723770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOfficeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BCEE272235ADBF200754E57 /* Debug */,
-				2BCEE273235ADBF200754E57 /* Release */,
+				2B669DC823770CA50053017F /* Debug */,
+				2B669DC923770CA50053017F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BCEE274235ADBF200754E57 /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */ = {
+		2B669DCA23770CA50053017F /* Build configuration list for PBXNativeTarget "rokkhiOfficeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BCEE275235ADBF200754E57 /* Debug */,
-				2BCEE276235ADBF200754E57 /* Release */,
+				2B669DCB23770CA50053017F /* Debug */,
+				2B669DCC23770CA50053017F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BCEE23C235ADBF000754E57 /* Project object */;
+	rootObject = 2B669D9223770CA30053017F /* Project object */;
 }
