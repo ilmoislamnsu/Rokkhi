@@ -7,3 +7,25 @@
 //
 
 import Foundation
+
+class DataService {
+    static let instance = DataService()
+    
+    private let visitors = [
+        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
+        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png"),
+        Visitor(name: "Xing Zheng", imageName: "visitorDemo.png"),
+        Visitor(name: "Tokunaga Yae", imageName: "visitorDemo.png"),
+        Visitor(name: "Shadrias Pearson", imageName: "visitorDemo.png"),
+        Visitor(name: "Nado Husa", imageName: "visitorDemo.png"),
+        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
+        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png"),
+        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
+        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png")
+    ]
+    
+    func getVisitors() -> [Visitor]  {
+        return visitors
+    }
+}
+ 

@@ -12,15 +12,9 @@ class VisitorCell: UITableViewCell {
     @IBOutlet weak var visitorImg: UIImageView!
     @IBOutlet weak var visitorName: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func updateViews (visitor: Visitor){
+        visitorImg.image = UIImage(named: visitor.imageName)
+        visitorName.text = visitor.name
     }
 
 }

@@ -8,13 +8,52 @@
 
 import UIKit
 
-class VisitorVC: UIViewController {
+class VisitorVC: UIViewController , UITableViewDataSource , UITableViewDelegate {
+    
+    
+    
+    //Outlets
+    
+    
     @IBOutlet weak var visitorTable: UITableView!
+    
+    
+    
+    
+    
+    //Codes
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        visitorTable.dataSource = self
+        visitorTable.delegate = self
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    
+    //Functions Generated After adding Two Protocols Named "UITableViewDataSource , UITableViewDelegate"
+    
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return DataService.instance.getVisitors().count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "VisitorCell") as? VisitorCell {
+            let visitor = DataService.instance.getVisitors()[indexPath.row]
+            cell.updateViews(visitor: visitor)
+            return cell
+        } else {
+            return VisitorCell()
+        }
+    }
+    
+}
+    
     
 
     /*
@@ -27,4 +66,4 @@ class VisitorVC: UIViewController {
     }
     */
 
-}
+
