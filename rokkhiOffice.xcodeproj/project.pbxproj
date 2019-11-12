@@ -17,6 +17,8 @@
 		2B669DC023770CA50053017F /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */; };
 		2B77AF6A237B380100292E94 /* VisitorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF69237B380100292E94 /* VisitorCell.swift */; };
 		2B77AF6C237B3B3300292E94 /* VisitorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF6B237B3B3300292E94 /* VisitorVC.swift */; };
+		2B77AF6E237B40D500292E94 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF6D237B40D500292E94 /* Visitor.swift */; };
+		2B77AF71237B44D600292E94 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF70237B44D600292E94 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2B669DC123770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B77AF69237B380100292E94 /* VisitorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorCell.swift; sourceTree = "<group>"; };
 		2B77AF6B237B3B3300292E94 /* VisitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorVC.swift; sourceTree = "<group>"; };
+		2B77AF6D237B40D500292E94 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		2B77AF70237B44D600292E94 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		2B669D9C23770CA40053017F /* rokkhiOffice */ = {
 			isa = PBXGroup;
 			children = (
+				2B77AF6F237B44BE00292E94 /* Services */,
 				2B77AF68237B36EA00292E94 /* Controller */,
 				2B77AF67237B36E500292E94 /* View */,
 				2B77AF66237B36DA00292E94 /* Model */,
@@ -137,6 +142,7 @@
 		2B77AF66237B36DA00292E94 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B77AF6D237B40D500292E94 /* Visitor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +162,14 @@
 				2B77AF6B237B3B3300292E94 /* VisitorVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B77AF6F237B44BE00292E94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B77AF70237B44D600292E94 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,9 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B77AF6A237B380100292E94 /* VisitorCell.swift in Sources */,
+				2B77AF71237B44D600292E94 /* DataService.swift in Sources */,
 				2B77AF6C237B3B3300292E94 /* VisitorVC.swift in Sources */,
 				2B669DA223770CA40053017F /* ViewController.swift in Sources */,
 				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
+				2B77AF6E237B40D500292E94 /* Visitor.swift in Sources */,
 				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
