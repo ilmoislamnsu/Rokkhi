@@ -15,7 +15,8 @@
 		2B669DAA23770CA50053017F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA823770CA50053017F /* LaunchScreen.storyboard */; };
 		2B669DB523770CA50053017F /* rokkhiOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DB423770CA50053017F /* rokkhiOfficeTests.swift */; };
 		2B669DC023770CA50053017F /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */; };
-		2B77AF65237AD32D00292E94 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF64237AD32D00292E94 /* TableViewCell.swift */; };
+		2B77AF6A237B380100292E94 /* VisitorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF69237B380100292E94 /* VisitorCell.swift */; };
+		2B77AF6C237B3B3300292E94 /* VisitorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF6B237B3B3300292E94 /* VisitorVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		2B669DBB23770CA50053017F /* rokkhiOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeUITests.swift; sourceTree = "<group>"; };
 		2B669DC123770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B77AF64237AD32D00292E94 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2B77AF69237B380100292E94 /* VisitorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorCell.swift; sourceTree = "<group>"; };
+		2B77AF6B237B3B3300292E94 /* VisitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 		2B669D9C23770CA40053017F /* rokkhiOffice */ = {
 			isa = PBXGroup;
 			children = (
-				2B77AF64237AD32D00292E94 /* TableViewCell.swift */,
+				2B77AF68237B36EA00292E94 /* Controller */,
+				2B77AF67237B36E500292E94 /* View */,
+				2B77AF66237B36DA00292E94 /* Model */,
 				2B669D9D23770CA40053017F /* AppDelegate.swift */,
 				2B669D9F23770CA40053017F /* SceneDelegate.swift */,
-				2B669DA123770CA40053017F /* ViewController.swift */,
 				2B669DA323770CA40053017F /* Main.storyboard */,
 				2B669DA623770CA50053017F /* Assets.xcassets */,
 				2B669DA823770CA50053017F /* LaunchScreen.storyboard */,
@@ -129,6 +132,30 @@
 				2B669DC123770CA50053017F /* Info.plist */,
 			);
 			path = rokkhiOfficeUITests;
+			sourceTree = "<group>";
+		};
+		2B77AF66237B36DA00292E94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B77AF67237B36E500292E94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B77AF69237B380100292E94 /* VisitorCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B77AF68237B36EA00292E94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B669DA123770CA40053017F /* ViewController.swift */,
+				2B77AF6B237B3B3300292E94 /* VisitorVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B77AF6A237B380100292E94 /* VisitorCell.swift in Sources */,
+				2B77AF6C237B3B3300292E94 /* VisitorVC.swift in Sources */,
 				2B669DA223770CA40053017F /* ViewController.swift in Sources */,
-				2B77AF65237AD32D00292E94 /* TableViewCell.swift in Sources */,
 				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
 				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
 			);
