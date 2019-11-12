@@ -15,6 +15,7 @@
 		2B669DAA23770CA50053017F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA823770CA50053017F /* LaunchScreen.storyboard */; };
 		2B669DB523770CA50053017F /* rokkhiOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DB423770CA50053017F /* rokkhiOfficeTests.swift */; };
 		2B669DC023770CA50053017F /* rokkhiOfficeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */; };
+		2B77AF65237AD32D00292E94 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF64237AD32D00292E94 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2B669DBB23770CA50053017F /* rokkhiOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokkhiOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B669DBF23770CA50053017F /* rokkhiOfficeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rokkhiOfficeUITests.swift; sourceTree = "<group>"; };
 		2B669DC123770CA50053017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B77AF64237AD32D00292E94 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		2B669D9C23770CA40053017F /* rokkhiOffice */ = {
 			isa = PBXGroup;
 			children = (
+				2B77AF64237AD32D00292E94 /* TableViewCell.swift */,
 				2B669D9D23770CA40053017F /* AppDelegate.swift */,
 				2B669D9F23770CA40053017F /* SceneDelegate.swift */,
 				2B669DA123770CA40053017F /* ViewController.swift */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B669DA223770CA40053017F /* ViewController.swift in Sources */,
+				2B77AF65237AD32D00292E94 /* TableViewCell.swift in Sources */,
 				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
 				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
 			);
