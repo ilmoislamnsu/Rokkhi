@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B51DF2E237C591900DA7984 /* InvitedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51DF2D237C591900DA7984 /* InvitedVC.swift */; };
+		2B51DF30237C594200DA7984 /* InvitedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51DF2F237C594200DA7984 /* InvitedCell.swift */; };
+		2B51DF32237C595B00DA7984 /* Invited.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51DF31237C595B00DA7984 /* Invited.swift */; };
 		2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669D9D23770CA40053017F /* AppDelegate.swift */; };
 		2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669D9F23770CA40053017F /* SceneDelegate.swift */; };
 		2B669DA223770CA40053017F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B669DA123770CA40053017F /* HomeVC.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B51DF2D237C591900DA7984 /* InvitedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitedVC.swift; sourceTree = "<group>"; };
+		2B51DF2F237C594200DA7984 /* InvitedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitedCell.swift; sourceTree = "<group>"; };
+		2B51DF31237C595B00DA7984 /* Invited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invited.swift; sourceTree = "<group>"; };
 		2B669D9A23770CA40053017F /* rokkhiOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokkhiOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B669D9D23770CA40053017F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B669D9F23770CA40053017F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				2B77AF6D237B40D500292E94 /* Visitor.swift */,
+				2B51DF31237C595B00DA7984 /* Invited.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				2B77AF69237B380100292E94 /* VisitorCell.swift */,
+				2B51DF2F237C594200DA7984 /* InvitedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			children = (
 				2B669DA123770CA40053017F /* HomeVC.swift */,
 				2B77AF6B237B3B3300292E94 /* VisitorVC.swift */,
+				2B51DF2D237C591900DA7984 /* InvitedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -306,10 +315,13 @@
 				2B77AF6A237B380100292E94 /* VisitorCell.swift in Sources */,
 				2B77AF71237B44D600292E94 /* DataService.swift in Sources */,
 				2B77AF6C237B3B3300292E94 /* VisitorVC.swift in Sources */,
+				2B51DF32237C595B00DA7984 /* Invited.swift in Sources */,
 				2B669DA223770CA40053017F /* HomeVC.swift in Sources */,
 				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
 				2B77AF6E237B40D500292E94 /* Visitor.swift in Sources */,
+				2B51DF2E237C591900DA7984 /* InvitedVC.swift in Sources */,
 				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
+				2B51DF30237C594200DA7984 /* InvitedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
