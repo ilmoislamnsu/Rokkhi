@@ -8,6 +8,9 @@
 
 import Foundation
 
+
+//This class contains sample data from where data is used to show in the cell of table view
+
 class DataService {
     static let instance = DataService()
     

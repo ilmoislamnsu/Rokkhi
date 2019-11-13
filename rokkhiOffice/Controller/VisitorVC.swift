@@ -12,32 +12,23 @@ class VisitorVC: UIViewController , UITableViewDataSource , UITableViewDelegate 
     
     
     
-    //Outlets
+//Outlets
     
     
     @IBOutlet weak var visitorTable: UITableView!
     
     
-    
-    
-    
-    //Codes
+//Codes
     
     override func viewDidLoad() {
         super.viewDidLoad()
         visitorTable.dataSource = self
         visitorTable.delegate = self
-
-        // Do any additional setup after loading the view.
     }
     
     
+//Functions Generated After adding Two Protocols Named "UITableViewDataSource , UITableViewDelegate"
     
-    
-    
-    //Functions Generated After adding Two Protocols Named "UITableViewDataSource , UITableViewDelegate"
-    
-
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return DataService.instance.getVisitors().count
     }
@@ -54,16 +45,5 @@ class VisitorVC: UIViewController , UITableViewDataSource , UITableViewDelegate 
     
 }
     
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 
