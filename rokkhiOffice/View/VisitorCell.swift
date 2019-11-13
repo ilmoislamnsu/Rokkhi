@@ -16,7 +16,7 @@ class VisitorCell: UITableViewCell {
 
     
 // Function For updating views in the cell
-    
+
     func updateViews (visitor: Visitor){
         visitorImg.image = UIImage(named: visitor.imageName)
         visitorName.text = visitor.name

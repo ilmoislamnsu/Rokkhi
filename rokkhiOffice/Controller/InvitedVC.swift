@@ -8,14 +8,35 @@
 
 import UIKit
 
-class InvitedVC: UIViewController {
-
+class InvitedVC: UIViewController , UITableViewDataSource , UITableViewDelegate{
+    
+  
+    
+    @IBOutlet weak var invitedTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        invitedTable.dataSource = self
+        invitedTable.delegate = self
         // Do any additional setup after loading the view.
     }
     
+    
+    
+      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+          return DataService.instance.getInviteds().count
+      }
+      
+      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          if let cell = tableView.dequeueReusableCell(withIdentifier: "InvitedCell") as? InvitedCell {
+              let invited = DataService.instance.getInviteds()[indexPath.row]
+              cell.update(invited: invited)
+              return cell
+          } else {
+              return InvitedCell()
+          }
+      }
+      
 
     /*
     // MARK: - Navigation

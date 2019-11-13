@@ -229,7 +229,7 @@
         <!--Inviteds-->
         <scene sceneID="XAJ-Kz-tjU">
             <objects>
-                <viewController id="CtB-TL-tIH" sceneMemberID="viewController">
+                <viewController id="CtB-TL-tIH" customClass="InvitedVC" customModule="rokkhiOffice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u1Z-rA-aac">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,7 +242,7 @@
                                 <rect key="frame" x="0.0" y="152" width="375" height="515"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="0ib-VY-TLy">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InvitedCell" rowHeight="100" id="0ib-VY-TLy" customClass="InvitedCell" customModule="rokkhiOffice" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0ib-VY-TLy" id="FCw-Mk-lwU">
@@ -320,6 +320,12 @@
                                                 <constraint firstItem="mJZ-cm-UQF" firstAttribute="top" secondItem="15e-Ex-96D" secondAttribute="top" id="zkW-xT-nWw"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="expectedVisit" destination="azv-RG-R0d" id="vHc-sJ-fjy"/>
+                                            <outlet property="invitationDate" destination="NHl-om-e6D" id="Gdi-kj-pfj"/>
+                                            <outlet property="invitedImage" destination="15e-Ex-96D" id="v1x-dP-PGa"/>
+                                            <outlet property="invitedName" destination="mJZ-cm-UQF" id="w47-Lc-c5u"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -337,6 +343,9 @@
                         <viewLayoutGuide key="safeArea" id="L5H-fr-g7L"/>
                     </view>
                     <navigationItem key="navigationItem" title="Inviteds" id="Kaj-Ig-Efh"/>
+                    <connections>
+                        <outlet property="invitedTable" destination="ftw-lg-SO6" id="rbj-Qq-tD5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4FR-Sr-hMn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

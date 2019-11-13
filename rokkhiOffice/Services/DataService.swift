@@ -13,7 +13,8 @@ import Foundation
 
 class DataService {
     static let instance = DataService()
-    
+
+//Visitors Data
     private let visitors = [
         Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
         Visitor(name: "Adam Hopking", imageName: "visitorDemo.png"),
@@ -30,5 +31,25 @@ class DataService {
     func getVisitors() -> [Visitor]  {
         return visitors
     }
+//End of Visitor Data
+    
+//Inviteds Data
+    private let inviteds = [
+    Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+    Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12")
+        
+        
+        
+        
+    ]
+    
+    func getInviteds() -> [Invited] {
+        return inviteds
+    }
+    //End Of Inviteds Data
 }
  
