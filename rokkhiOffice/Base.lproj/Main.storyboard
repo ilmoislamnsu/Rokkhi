@@ -219,23 +219,25 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="9VA-5G-vdf">
-                                <rect key="frame" x="20" y="491" width="374" height="58"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Expected Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EC2-5M-wpJ">
+                                <rect key="frame" x="20" y="484" width="374" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="Ma3-hG-Q4l"/>
+                                    <constraint firstAttribute="height" constant="40" id="5rr-HW-1WI"/>
                                 </constraints>
-                            </datePicker>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="an2-fq-fgg" firstAttribute="top" secondItem="swa-j5-UWe" secondAttribute="bottom" constant="20" id="57P-yU-Tlh"/>
-                            <constraint firstItem="9VA-5G-vdf" firstAttribute="top" secondItem="58l-92-jkc" secondAttribute="bottom" constant="15" id="Jf6-gF-qat"/>
+                            <constraint firstItem="EC2-5M-wpJ" firstAttribute="top" secondItem="58l-92-jkc" secondAttribute="bottom" constant="8" id="Ctb-Me-Qmu"/>
+                            <constraint firstItem="24X-Nv-4pg" firstAttribute="trailing" secondItem="EC2-5M-wpJ" secondAttribute="trailing" constant="20" id="Gg8-lc-7y7"/>
+                            <constraint firstItem="EC2-5M-wpJ" firstAttribute="leading" secondItem="24X-Nv-4pg" secondAttribute="leading" constant="20" id="Jfm-S4-Xsn"/>
                             <constraint firstItem="24X-Nv-4pg" firstAttribute="trailing" secondItem="58l-92-jkc" secondAttribute="trailing" constant="20" id="KlY-e4-t5Z"/>
                             <constraint firstItem="24X-Nv-4pg" firstAttribute="trailing" secondItem="68r-vc-uNC" secondAttribute="trailing" constant="20" id="LM1-HZ-ChX"/>
-                            <constraint firstItem="24X-Nv-4pg" firstAttribute="trailing" secondItem="9VA-5G-vdf" secondAttribute="trailing" constant="20" id="LaK-ba-eON"/>
                             <constraint firstItem="swa-j5-UWe" firstAttribute="top" secondItem="24X-Nv-4pg" secondAttribute="top" constant="5" id="MBo-UY-yug"/>
                             <constraint firstItem="an2-fq-fgg" firstAttribute="centerX" secondItem="WaE-1a-srQ" secondAttribute="centerX" id="Qlg-j9-Bh3"/>
-                            <constraint firstItem="9VA-5G-vdf" firstAttribute="leading" secondItem="24X-Nv-4pg" secondAttribute="leading" constant="20" id="R9r-1f-iIq"/>
                             <constraint firstItem="58l-92-jkc" firstAttribute="top" secondItem="68r-vc-uNC" secondAttribute="bottom" constant="8" id="UJh-Zo-gO8"/>
                             <constraint firstItem="68r-vc-uNC" firstAttribute="leading" secondItem="24X-Nv-4pg" secondAttribute="leading" constant="20" id="Xe4-8T-9zH"/>
                             <constraint firstItem="68r-vc-uNC" firstAttribute="top" secondItem="an2-fq-fgg" secondAttribute="bottom" constant="23" id="ch0-tM-vSe"/>
@@ -250,6 +252,7 @@
                     <navigationItem key="navigationItem" title="Invite" id="3u5-Nw-5Zb"/>
                     <connections>
                         <outlet property="addFromContactBtn" destination="an2-fq-fgg" id="6ZW-K8-CWX"/>
+                        <outlet property="dateDisplay" destination="EC2-5M-wpJ" id="YAO-Il-Zu2"/>
                         <outlet property="invitePicture" destination="swa-j5-UWe" id="eyI-uk-y70"/>
                     </connections>
                 </viewController>
@@ -334,13 +337,13 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iCN-Um-m0h">
                                                             <rect key="frame" x="0.0" y="0.0" width="162.33333333333334" height="19.666666666666668"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Invited On:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-L9-c8h">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invited On:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-L9-c8h">
                                                                     <rect key="frame" x="0.0" y="0.0" width="70" height="19.666666666666668"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="invitationDate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHl-om-e6D">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invitationDate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHl-om-e6D">
                                                                     <rect key="frame" x="75" y="0.0" width="87.333333333333314" height="19.666666666666668"/>
                                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                                     <nil key="textColor"/>
