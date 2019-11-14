@@ -22,6 +22,7 @@
 		2B77AF6E237B40D500292E94 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF6D237B40D500292E94 /* Visitor.swift */; };
 		2B77AF71237B44D600292E94 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AF70237B44D600292E94 /* DataService.swift */; };
 		2B77AF72237BC33500292E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B669DA323770CA40053017F /* Main.storyboard */; };
+		2BE6CA0F237D625B009D6702 /* InviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6CA0E237D625B009D6702 /* InviteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2B77AF6B237B3B3300292E94 /* VisitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorVC.swift; sourceTree = "<group>"; };
 		2B77AF6D237B40D500292E94 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		2B77AF70237B44D600292E94 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2BE6CA0E237D625B009D6702 /* InviteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				2B669DA123770CA40053017F /* HomeVC.swift */,
 				2B77AF6B237B3B3300292E94 /* VisitorVC.swift */,
 				2B51DF2D237C591900DA7984 /* InvitedVC.swift */,
+				2BE6CA0E237D625B009D6702 /* InviteVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				2B669DA223770CA40053017F /* HomeVC.swift in Sources */,
 				2B669D9E23770CA40053017F /* AppDelegate.swift in Sources */,
 				2B77AF6E237B40D500292E94 /* Visitor.swift in Sources */,
+				2BE6CA0F237D625B009D6702 /* InviteVC.swift in Sources */,
 				2B51DF2E237C591900DA7984 /* InvitedVC.swift in Sources */,
 				2B669DA023770CA40053017F /* SceneDelegate.swift in Sources */,
 				2B51DF30237C594200DA7984 /* InvitedCell.swift in Sources */,

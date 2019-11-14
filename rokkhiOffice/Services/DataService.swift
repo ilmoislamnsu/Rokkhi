@@ -16,16 +16,16 @@ class DataService {
 
 //Visitors Data
     private let visitors = [
-        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
-        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png"),
-        Visitor(name: "Xing Zheng", imageName: "visitorDemo.png"),
-        Visitor(name: "Tokunaga Yae", imageName: "visitorDemo.png"),
-        Visitor(name: "Shadrias Pearson", imageName: "visitorDemo.png"),
-        Visitor(name: "Nado Husa", imageName: "visitorDemo.png"),
-        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
-        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png"),
-        Visitor(name: "Joe Black", imageName: "visitorDemo.png"),
-        Visitor(name: "Adam Hopking", imageName: "visitorDemo.png")
+        Visitor(name: "Joe Black", imageName: "i1.png"),
+        Visitor(name: "Adam Hopking", imageName: "i9.png"),
+        Visitor(name: "Xing Zheng", imageName: "i2.png"),
+        Visitor(name: "Tokunaga Yae", imageName: "i3.png"),
+        Visitor(name: "Shadrias Pearson", imageName: "i4.png"),
+        Visitor(name: "Nado Husa", imageName: "i5.png"),
+        Visitor(name: "Joe Black", imageName: "i6.png"),
+        Visitor(name: "Adam Hopking", imageName: "i7.png"),
+        Visitor(name: "Joe Black", imageName: "i11.png"),
+        Visitor(name: "Adam Hopking", imageName: "i12.png")
     ]
     
     func getVisitors() -> [Visitor]  {
@@ -34,17 +34,14 @@ class DataService {
 //End of Visitor Data
     
 //Inviteds Data
+    
     private let inviteds = [
-    Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
-    Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
-        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
-        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
-        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
-        Invited(name: "Joe", invitedImageName: "visitorDemo.png", invitedDate: "12.12.12", expectedDate: "15.12.12")
-        
-        
-        
-        
+    Invited(name: "Joe", invitedImageName: "i1.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+    Invited(name: "Adam Hopking", invitedImageName: "i2.png", invitedDate: "12.12.12", expectedDate: "15.12.12"),
+    Invited(name: "Xing Zheng", invitedImageName: "i3.png", invitedDate: "12.12.12", expectedDate: "18.12.12"),
+    Invited(name: "Tokunaga Yae", invitedImageName: "i4.png", invitedDate: "12.12.12", expectedDate: "21.12.12"),
+    Invited(name: "Adam Hopking", invitedImageName: "i5.png", invitedDate: "12.12.12", expectedDate: "25.12.12"),
+    Invited(name: "Joe white", invitedImageName: "i6.png", invitedDate: "12.12.12", expectedDate: "37.12.12")
     ]
     
     func getInviteds() -> [Invited] {

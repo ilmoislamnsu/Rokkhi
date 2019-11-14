@@ -11,6 +11,8 @@ import UIKit
 class HomeVC: UIViewController {
     @IBOutlet weak var profilePhoto: UIImageView!
     
+    
+    
 //    @IBOutlet weak var profilePicture: UIImageView!
     
 //    @IBOutlet weak var profilePicture: UIImageView!
@@ -22,8 +24,6 @@ class HomeVC: UIViewController {
        profilePhoto.layer.masksToBounds = true
        profilePhoto.layer.cornerRadius = profilePhoto.frame.width / 2
 
-        
-        
     }
 
 

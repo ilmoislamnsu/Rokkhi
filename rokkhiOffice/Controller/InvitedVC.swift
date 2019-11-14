@@ -16,6 +16,9 @@ class InvitedVC: UIViewController , UITableViewDataSource , UITableViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = #imageLiteral(resourceName: "i10")
+        
         invitedTable.dataSource = self
         invitedTable.delegate = self
         // Do any additional setup after loading the view.

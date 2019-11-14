@@ -24,6 +24,7 @@ class VisitorVC: UIViewController , UITableViewDataSource , UITableViewDelegate 
         super.viewDidLoad()
         visitorTable.dataSource = self
         visitorTable.delegate = self
+        
     }
     
     

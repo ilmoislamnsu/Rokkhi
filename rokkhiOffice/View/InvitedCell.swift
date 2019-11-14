@@ -17,6 +17,8 @@ class InvitedCell: UITableViewCell {
     @IBOutlet weak var invitationDate: UILabel!
     @IBOutlet weak var expectedVisit: UILabel!
     
+   
+    
     // Function For updating views in the cell
     
     func update (invited : Invited) {
@@ -24,7 +26,6 @@ class InvitedCell: UITableViewCell {
         invitedName.text = invited.name
         invitationDate.text = invited.invitedDate
         expectedVisit.text = invited.expectedDate
-        
     }
 
 }
