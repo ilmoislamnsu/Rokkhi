@@ -15,7 +15,6 @@ class InviteVC: UIViewController {
     @IBOutlet weak var dateDisplay: UITextField!
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
