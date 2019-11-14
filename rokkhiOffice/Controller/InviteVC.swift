@@ -29,7 +29,11 @@ class InviteVC: UIViewController {
         addFromContactBtn.layer.borderWidth = 1.5
     
     
-    
+    //Listen for Keyboard Event
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillChange(notification:)), name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+
     
     
     
@@ -73,6 +77,30 @@ class InviteVC: UIViewController {
     }
     //End Of Toolbar Date Picker
     //
+    
+    
+     @objc func keyboardWillChange(notification : Notification){
+        
+        guard let keyboardRect = (notification.userInfo? [UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else{
+            return
+        }
+        if notification.name == UIResponder.keyboardWillShowNotification || notification.name == UIResponder.keyboardWillChangeFrameNotification
+        {
+            if(view.frame.size.height == 568){view.frame.origin.y = -keyboardRect.height}
+            if(view.frame.size.height == 667){view.frame.origin.y = -keyboardRect.height/2}
+            print(view.frame.size.height)
+        }
+        else{
+         view.frame.origin.y = 0
+        }
+    }
+       
+       deinit {
+           //Stop listening for keyboard hide/show events
+           NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
+           NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+           NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+       }
     
     
     
